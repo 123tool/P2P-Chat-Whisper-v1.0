@@ -73,4 +73,5 @@ node server.js
 - ​Buat Pull Request
   
 ​Developed with 🔥 by [123Tool / SPY-E]
-"Privacy isn't an option, it's a right."
+
+***"Privacy isn't an option, it's a right."***
