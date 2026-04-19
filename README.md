@@ -24,43 +24,49 @@ Chat P2P Whisper adalah platform obrolan anonim berbasis jaringan lokal (Wi-Fi).
 ## 🚀 Panduan Instalasi (Termux/Linux/Windows)
 
 ### 1. Persiapan Environment
-Pastikan kamu sudah menginstall Node.js. Untuk pengguna **Termux**, jalankan:
+Pastikan kamu sudah menginstall Node.js. Untuk pengguna **Termux**, jalankan :
 ```bash
 pkg update && pkg upgrade -y
 pkg install nodejs git -y
 ```
-Clone & Setup
-​Jalankan perintah berikut secara berurutan:
+### 2. Clone & Setup
+​Jalankan perintah berikut secara berurutan :
 ```bash
 # Clone repository ini
-git clone [https://github.com/USERNAME_KAMU/lan-whisper.git](https://github.com/USERNAME_KAMU/lan-whisper.git)
+git clone [https://github.com/123tool/P2P-Chat-Whisper-v1.0.git]
 
 # Masuk ke folder proyek
-cd lan-whisper
+cd P2P-Chat-Whisper-v1.0
 
 # Install library yang dibutuhkan
 npm install
 ```
-Menjalankan Server
-​Jalankan perintah ini untuk menghidupkan sistem:
+### 3. Menjalankan Server
+​Jalankan perintah ini untuk menghidupkan sistem :
 ```bash
 node server.js
 ```
-Cara Mengakses
-​Setelah server jalan, akan muncul banner di terminal:
-​Akses Lokal (Diri Sendiri): Buka browser dan ketik http://localhost:8080
-​Akses Teman (Satu Wi-Fi): Berikan link IP yang muncul di terminal (contoh: http://192.168.1.3:8080) kepada temanmu.
+### 4. Cara Mengakses
+​Setelah server jalan, akan muncul banner di terminal :
+- ​Akses Lokal (Diri Sendiri) :
+  ```bash
+  Buka browser dan ketik http://localhost:8080
+- ​Akses (Satu Wi-Fi) : Berikan link IP yang muncul di terminal, contoh :
+  ```bash
+  http://192.168.1.3:8080) kepada temanmu.
 
-🛡️ Keamanan & Privasi
-​Enkripsi Lokal: Data dikirim melalui WebSockets secara langsung.
-​RAM-Based: Seluruh data obrolan disimpan di RAM. Begitu proses server dihentikan (Ctrl + C), semua riwayat akan terhapus secara permanen.
-​No Tracking: Tidak ada pelacakan IP atau penyimpanan cookies.
+### 🛡️ Keamanan & Privasi
+- Enkripsi Lokal : Data dikirim melalui WebSockets secara langsung.
+- ​RAM-Based : Seluruh data obrolan disimpan di RAM. Begitu proses server dihentikan (Ctrl + C), semua riwayat akan terhapus secara permanen.
+- ***​No Tracking: Tidak ada pelacakan IP atau penyimpanan cookies.***
+
 ​🤝 Kontribusi
-​Punya ide buat bikin "senjata" ini lebih ganas? Langsung aja:
-​Fork proyek ini
-​Buat branch baru (git checkout -b fitur-keren)
-​Commit perubahan (git commit -m 'Tambah fitur x')
-​Push ke branch (git push origin fitur-keren)
-​Buat Pull Request
-​Developed with 🔥 by [Rolandino / SPY-E]
+​Punya ide buat bikin "senjata" ini lebih baik? Langsung aja :
+- ​Fork proyek ini
+- Buat branch baru (git checkout -b fitur-keren)
+- ​Commit perubahan (git commit -m 'Tambah fitur x')
+- ​Push ke branch (git push origin fitur)
+- ​Buat Pull Request
+  
+​Developed with 🔥 by [123Tool / SPY-E]
 "Privacy isn't an option, it's a right."
