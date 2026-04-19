@@ -1,7 +1,7 @@
 {
-  "name": "lan-whisper",
+  "name": "P2P-Chat-whisper",
   "version": "1.0.0",
-  "description": "Anonymous & Ultra-Private P2P Local Chat System",
+  "description": "Anonymous Private P2P Local Chat System",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -15,7 +15,7 @@
     "socket.io",
     "privacy"
   ],
-  "author": "Rolandino / SPY-E",
+  "author": "123Tool / SPY-E",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
