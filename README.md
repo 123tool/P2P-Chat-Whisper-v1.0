@@ -40,6 +40,10 @@ cd P2P-Chat-Whisper-v1.0
 
 # Install library yang dibutuhkan
 npm install
+
+# Akses Perangkat
+termux-wake-lock
+
 ```
 ### 3. Menjalankan Server
 ​Jalankan perintah ini untuk menghidupkan sistem :
